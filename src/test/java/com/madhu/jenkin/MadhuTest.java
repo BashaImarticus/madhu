@@ -18,5 +18,12 @@ class MadhuTest {
 	logger.info("Test cse started!!!!!!!!");
 	assertEquals(10, 10);
 	}
+	
+	@Test
+	public void oneMoreTestCase() {
+		logger.info("From oneMoreTestCase......" );
+		assertEquals(true, true);
+			
+	}
 
 }
